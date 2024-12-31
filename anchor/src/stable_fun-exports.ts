@@ -2,7 +2,7 @@
 import { AnchorProvider, Program } from '@coral-xyz/anchor'
 import { Cluster, PublicKey } from '@solana/web3.js'
 import StableFunIDL from '../target/idl/stable_fun.json'
-import type { StableFun } from '../target/types/stable_fun'
+import type { StableFun } from '../target/types/stable-fun'
 
 // Re-export the generated IDL and type
 export { StableFun, StableFunIDL }
